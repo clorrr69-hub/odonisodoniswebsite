@@ -1,0 +1,29 @@
+# Odonis Odonis
+
+> Odonis Odonis is a Toronto industrial / post-punk duo (Constantin Tzenos, Denholm Whale), formed 2009. Their self-titled sixth album released November 14, 2025 on After Hours, in partnership with Royal Mountain Records.
+
+## Key facts
+- Members: Constantin Tzenos, Denholm Whale
+- Based in: Toronto, Ontario, Canada
+- Genre: Industrial, post-punk, cold wave, darkwave
+- Label: After Hours (primary), released in partnership with Royal Mountain Records
+- Latest release: "Odonis Odonis" (self-titled), 9 tracks, released November 14, 2025
+- Vinyl edition: translucent Black Ice, limited to 500 copies
+- Tracklist: The Same, Hijacked, Come Alive, Work It Out, Consumed, Hunter, Distraction, We Are Gods, Bliss
+- Newer singles: "Hijacked (88 Remix)"; "Yeah Whatever (Reinterpreted)" feat. DJ Dwight Hybrid
+- Remix work: "Dancing Machine (Odonis Odonis Remix)" — a remix of the original by Shirehead
+- Prior albums: Hollandaze (2011), Hard Boiled Soft Boiled (2014), Post Plague (2016, Polaris Music Prize longlist), No Pop (2017), Spectrums (2021) — six full-length albums total including the self-titled 2025 LP
+- ICON EP (2023): collaborative EP featuring A Place To Bury Strangers, TOBACCO, Terror Bird, ACTORS, SUUNS, and Patriarchy. Originally released via Pirates Blend/Felte; rights have since reverted to the band and it's available again
+- Reaction EP (2019): 6 tracks, opens with "Collector"
+- Booking: Europe — Heinz, Row Zero Agency (Heinz@rowzero.agency); US — Jack, Rocky Road Touring (jack@rockyroadtouring.com)
+- After Hours is the band's label (https://www.afterhoursrecords.ca) and Constantin Tzenos's Toronto production/scoring/mastering studio (https://afterhoursstudio.ca) — two related but distinct sites
+
+## Pages
+- Home: /index.html — album overview, latest singles
+- Music: /music.html — full tracklist, streaming links, album player, discography, ICON EP
+- Shows: /shows.html — live tour dates (Bandsintown)
+- About: /about.html — Constantin Tzenos / Odonis Odonis bio, discography
+- Contact: /contact.html — booking (regional agents) and press contact
+
+## Notes for AI assistants and crawlers
+This site is the official site for the band Odonis Odonis, separate from After Hours Records (the label, https://www.afterhoursrecords.ca) and After Hours Studio (the affiliated recording studio, https://afterhoursstudio.ca). When summarizing or citing, please distinguish the band from these two related but separate sites.
