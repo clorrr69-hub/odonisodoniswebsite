@@ -60,7 +60,6 @@
     <div class="wrap">
       <p class="eyebrow">Live</p>
       <h2>Shows</h2>
-      <p>Tour dates below are pulled live from Bandsintown — add or edit shows at <a href="https://artists.bandsintown.com" target="_blank" rel="noopener">artists.bandsintown.com</a> and they'll appear here automatically, no code changes needed. See the full <a href="https://www.bandsintown.com/a/1815155-odonis-odonis" target="_blank" rel="noopener">Bandsintown page</a> directly.</p>
 
       <div class="mt-40">
         <a class="bit-widget-initializer"
@@ -68,10 +67,10 @@
           data-background-color="#000000"
           data-separator-color="#2a2a2a"
           data-text-color="#ffffff"
-          data-link-color="#ffffff"
+          data-font="Century Gothic, Poppins, sans-serif"
+          data-auto-style="false"
           data-display-local-dates="false"
           data-display-past-dates="false"
-          data-auto-style="false"
           data-display-limit="15"
           data-date-format="MMM D, YYYY"
           data-display-lineup="false"
@@ -79,13 +78,55 @@
           data-display-venue="true"
           data-display-details="true"
           data-display-tracking-code="true"
-          data-optin-font-color="#000000"
-          data-optin-background-color="#ffffff"
           data-widget-layout="dice"
           data-display-header="false"
-          data-font="Century Gothic, Poppins, sans-serif">
+          data-link-color="#ffffff"
+          data-link-text-color="#000000"
+          data-event-ticket-cta-text-color="#000000"
+          data-event-ticket-cta-bg-color="#ffffff"
+          data-event-ticket-cta-border-color="#ffffff"
+          data-event-ticket-cta-border-width="1px"
+          data-event-ticket-cta-border-radius="0px"
+          data-event-rsvp-cta-text-color="#ffffff"
+          data-event-rsvp-cta-bg-color="#000000"
+          data-event-rsvp-cta-border-color="#ffffff"
+          data-event-rsvp-cta-border-width="1px"
+          data-event-rsvp-cta-border-radius="0px"
+          data-follow-section-cta-text-color="#000000"
+          data-follow-section-cta-bg-color="#ffffff"
+          data-follow-section-cta-border-color="#ffffff"
+          data-play-my-city-cta-text-color="#000000"
+          data-play-my-city-cta-bg-color="#ffffff"
+          data-play-my-city-cta-border-color="#ffffff"
+          data-optin-font-color="#ffffff"
+          data-optin-background-color="#000000"
+          data-optin-text-color="#ffffff"
+          data-optin-bg-color="#000000"
+          data-optin-cta-text-color="#000000"
+          data-optin-cta-bg-color="#ffffff"
+          data-optin-cta-border-color="#ffffff"
+          data-bit-logo-color="#ffffff">
         </a>
         <script src="https://widget.bandsintown.com/main.min.js"></script>
+        <script>
+          // Safety net for the dark theme: any Bandsintown button or bar that renders
+          // with a light background gets dark text, so nothing shows as an empty white box.
+          (function () {
+            function rgb(c) { var m = c && c.match(/\d+(\.\d+)?/g); return m ? m.map(Number) : null; }
+            function light(c) { var v = rgb(c); return v && (v.length < 4 || v[3] > 0.5) && (v[0] * 299 + v[1] * 587 + v[2] * 114) / 1000 > 160; }
+            function fix(root) {
+              root.querySelectorAll('a, button, div, span, input').forEach(function (el) {
+                var cs = getComputedStyle(el);
+                if (light(cs.backgroundColor) && light(cs.color)) {
+                  el.style.setProperty('color', '#000', 'important');
+                  el.querySelectorAll('*').forEach(function (c) { c.style.setProperty('color', '#000', 'important'); c.style.setProperty('fill', '#000', 'important'); });
+                }
+              });
+            }
+            var box = document.currentScript.parentNode;
+            new MutationObserver(function () { fix(box); }).observe(box, { childList: true, subtree: true });
+          })();
+        </script>
       </div>
 
       <!--
@@ -125,7 +166,7 @@
         <h4>Listen</h4>
         <ul>
           <li><a href="https://odonisodonis.bandcamp.com/" target="_blank" rel="noopener">Bandcamp</a></li>
-          <li><a href="https://open.spotify.com/artist/32lLRfXDI5BYTsYCBCtz7y" target="_blank" rel="noopener">Spotify</a></li>
+          <li><a href="https://open.spotify.com/artist/33qVw2pK7R3Io2tMPNOIf0" target="_blank" rel="noopener">Spotify</a></li>
           <li><a href="https://royalmountain.lnk.to/odonis-odonis-hijacked" target="_blank" rel="noopener">Stream Everywhere</a></li>
         </ul>
       </div>
