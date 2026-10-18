@@ -524,3 +524,22 @@ footer {
   padding: 3px 8px;
   margin-bottom: 14px;
 }
+
+/* Bandsintown widget on the dark theme: keep buttons and the follow / request
+   bars readable (white boxes get black text, outlined boxes get white text). */
+.bit-widget .bit-button,
+.bit-widget .bit-offers,
+.bit-widget .bit-play-my-city-cta,
+.bit-widget .bit-follow-section-cta,
+.bit-widget .bit-nav-bar-button {
+  background-color: #fff !important;
+  color: #000 !important;
+  border: 1px solid #fff !important;
+}
+.bit-widget .bit-rsvp {
+  background-color: #000 !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+.bit-widget .bit-offers-text,
+.bit-widget .bit-button * { color: inherit !important; }
