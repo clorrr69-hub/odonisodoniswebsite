@@ -59,7 +59,6 @@ Removed from the nav on all pages and from `sitemap.xml` per your note that you 
 **Marked `[PLACEHOLDER]` — swap in when ready:**
 - Band/live press photos (`.placeholder-photo` block on `about.html`)
 - Apple Music link for the full LP specifically (not yet confirmed — the two new singles' Apple Music links are already live)
-- Press email address on `contact.html` (booking is now real — see above)
 - Mailing list signup in the footer (built and styled, points at a placeholder Mailchimp audience — see "Mailing list" below to connect a real one)
 
 Search any file for `PLACEHOLDER` to find every spot that still needs real content.
