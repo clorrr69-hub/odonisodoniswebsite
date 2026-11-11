@@ -297,6 +297,9 @@ p { color: #c7c9cc; margin-bottom: 14px; max-width: 68ch; }
   margin-bottom: 18px;
 }
 
+.merch-grid { align-items: stretch; margin-top: 28px; max-width: 820px; gap: 28px; }
+.merch-photo { aspect-ratio: 4 / 5; height: auto; }
+
 .release-cover {
   width: 100%;
   aspect-ratio: 1 / 1;
